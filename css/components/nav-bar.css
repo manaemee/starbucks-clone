@@ -1,0 +1,35 @@
+#nav-bar {
+  box-sizing: border-box;
+  display: flex;
+  justify-content: space-between;
+  padding: 13px 30px;
+  width: 100%;
+  position: fixed;
+  bottom: 0px;
+  background-color: #fcfaf5;
+}
+.nav-bar__column {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  opacity: 0.5;
+}
+.nav-bar__column i {
+  margin-bottom: 10px;
+}
+
+nav {
+  display: flex;
+}
+
+#delivers {
+  color: white;
+
+  padding: 13px 15px;
+
+  border-radius: 30px;
+  background-color: green;
+  position: fixed;
+  bottom: 80px;
+  right: 15px;
+}

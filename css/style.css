@@ -1,0 +1,112 @@
+@import "reset.css";
+@import "components/status-bar.css";
+@import "components/nav-bar.css";
+body {
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
+    Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+}
+a {
+  text-decoration: none;
+  color: inherit;
+}
+.header-home {
+  background: linear-gradient(#f68258, #ffe794);
+}
+.header-home__row:first-child {
+  padding-top: 80px;
+  padding-left: 32px;
+
+  padding-bottom: 5px;
+}
+.header-home__row:nth-child(2) {
+  padding-top: 15px;
+  padding-left: 32px;
+  padding-right: 32px;
+
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.header-home__coloumn__bar {
+  width: 262px;
+  height: 10px;
+  border-radius: 20px;
+  background-color: rgb(204, 203, 203);
+}
+.header-home__title {
+  font-size: 25px;
+  font-weight: 500;
+  margin-bottom: 10px;
+  color: #332518;
+}
+.header-home__coloumn__reward {
+  color: rgb(202, 164, 114);
+  font-weight: 500;
+  font-size: 18px;
+  margin-bottom: 13px;
+}
+.fa-mug-hot {
+  position: relative;
+  top: -18px;
+  color: rgb(202, 164, 114);
+}
+.header-home__coloumn__current-star {
+  font-size: 50px;
+  font-weight: 700;
+}
+.header-home__coloumn__all-star {
+  font-size: 30px;
+  color: burlywood;
+}
+
+main {
+  height: 100vh;
+  padding: 0px 32px;
+}
+.main-header {
+  padding-top: 10px;
+  display: flex;
+  font-weight: 600;
+  justify-content: space-between;
+}
+.main-header__coloumn:first-child {
+  width: 50%;
+  display: flex;
+  justify-content: space-between;
+}
+.main-header__coloumn:last-child {
+  position: relative;
+}
+.bedge-alert {
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  background: cadetblue;
+  position: absolute;
+  top: -8px;
+  right: -6px;
+}
+
+.recommended-menu__title {
+  font-size: 25px;
+  font-weight: 500;
+}
+.recommended-menu {
+  margin-top: 50px;
+}
+.recommended-menu__img__coloumn {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.recommended-menu__img {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 30px;
+}
+.recommended-menu__img__coloumn img {
+  width: 120px;
+  height: 120px;
+  border-radius: 50%;
+  margin-bottom: 10px;
+}
